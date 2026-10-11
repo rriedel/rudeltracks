@@ -1,4 +1,4 @@
-# RTCS-19 – Personen-/Teilnehmer-Zuordnung
+# RTCS-20 – Personen-/Teilnehmer-Zuordnung
 
 **Kurzname:** participants
 **Phase:** Phase 2
@@ -18,7 +18,7 @@ Zuordnung von Teilnehmern zu Aktivitäten („wer war dabei"), um Tracks und Fot
 
 - [RTCS-03](RTCS-03-track-filter.md) (Filter)
 - [RTCS-02](RTCS-02-dashboard.md) (Statistiken je Person)
-- Verwandt mit [RTCS-14](RTCS-14-user-profiles.md) (Nutzerprofile)
+- Verwandt mit [RTCS-15](RTCS-15-user-profiles.md) (Nutzerprofile)
 
 ## Offene Punkte
 

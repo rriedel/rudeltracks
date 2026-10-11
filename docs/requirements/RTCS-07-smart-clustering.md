@@ -1,4 +1,4 @@
-# RTCS-06 – Smarte Darstellung / Track-Clustering
+# RTCS-07 – Smarte Darstellung / Track-Clustering
 
 **Kurzname:** smart-clustering
 **Phase:** MVP

@@ -1,4 +1,4 @@
-# RTCS-11 – Zeitleisten-/Kalenderansicht
+# RTCS-12 – Zeitleisten-/Kalenderansicht
 
 **Kurzname:** timeline-view
 **Phase:** Phase 2
@@ -18,8 +18,8 @@ Chronologische Ansicht der Aktivitäten als eigenständiger Sucheinstieg – erg
 ## Abhängigkeiten
 
 - [RTCS-03](RTCS-03-track-filter.md) (Filter)
-- [RTCS-08](RTCS-08-track-detail.md) (Detailansicht)
-- Verwandt mit [RTCS-12](RTCS-12-time-window-slider.md) (Zeitfenster auf der Karte)
+- [RTCS-09](RTCS-09-track-detail.md) (Detailansicht)
+- Verwandt mit [RTCS-13](RTCS-13-time-window-slider.md) (Zeitfenster auf der Karte)
 
 ## Offene Punkte
 

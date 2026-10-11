@@ -1,4 +1,4 @@
-# RTCS-16 – Foto-/EXIF-Import
+# RTCS-17 – Foto-/EXIF-Import
 
 **Kurzname:** photo-import
 **Phase:** MVP
@@ -19,11 +19,11 @@ Einlesen der Fotosammlung (> 10.000 JPGs, on-premise) und Extraktion der relevan
 - Referenz auf die Originaldatei (Pfad) statt Kopie.
 - Robuste Behandlung von Fotos ohne/mit fehlerhaften EXIF-Daten (nicht verwerfen, sondern als „unbestimmt" führen).
 - Deduplizierung mehrfach vorhandener Fotos.
-- Stabile, eindeutige Foto-Identität für Wiederholungsläufe (siehe [RTCS-18](RTCS-18-incremental-sync.md)).
+- Stabile, eindeutige Foto-Identität für Wiederholungsläufe (siehe [RTCS-19](RTCS-19-incremental-sync.md)).
 
 ## Abhängigkeiten
 
-- Liefert Daten an: [RTCS-07](RTCS-07-photo-markers.md), [RTCS-17](RTCS-17-photo-track-matching.md)
+- Liefert Daten an: [RTCS-08](RTCS-08-photo-markers.md), [RTCS-18](RTCS-18-photo-track-matching.md)
 - Thumbnail-Generierung wird in der Umsetzungsphase geklärt.
 
 ## Offene Punkte

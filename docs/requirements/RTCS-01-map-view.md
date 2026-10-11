@@ -19,7 +19,7 @@ Zentrale und primäre Oberfläche der Anwendung. Eine interaktive Karte auf Basi
 
 ## Abhängigkeiten
 
-- Basis für: [RTCS-05](RTCS-05-track-rendering.md), [RTCS-06](RTCS-06-smart-clustering.md), [RTCS-07](RTCS-07-photo-markers.md), [RTCS-12](RTCS-12-time-window-slider.md), [RTCS-13](RTCS-13-heatmap.md)
+- Basis für: [RTCS-05](RTCS-05-track-rendering.md), [RTCS-07](RTCS-07-smart-clustering.md), [RTCS-08](RTCS-08-photo-markers.md), [RTCS-13](RTCS-13-time-window-slider.md), [RTCS-14](RTCS-14-heatmap.md), [RTCS-06](RTCS-06-track-list-view.md)
 
 ## Offene Punkte
 

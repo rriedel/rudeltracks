@@ -1,4 +1,4 @@
-# RTCS-10 – Foto-Konfidenzfilter
+# RTCS-11 – Foto-Konfidenzfilter
 
 **Kurzname:** photo-confidence-filter
 **Phase:** MVP
@@ -16,10 +16,10 @@ Steuerung der Foto-Anzeige nach Sicherheit der Track-/Positionszuordnung. Jedes 
 
 ## Anforderungen / Akzeptanzkriterien
 
-- Jedes Foto hat eine gespeicherte Konfidenz-Stufe (aus [RTCS-17](RTCS-17-photo-track-matching.md)).
+- Jedes Foto hat eine gespeicherte Konfidenz-Stufe (aus [RTCS-18](RTCS-18-photo-track-matching.md)).
 - UI-Toggle „nur sicher zugeordnete Fotos anzeigen".
 - Optisch unterscheidbare Marker je Stufe (z. B. durchgezogener vs. gestrichelter Rand).
-- Konfidenz wird konsistent in Karte ([RTCS-07](RTCS-07-photo-markers.md)), Detailansicht ([RTCS-08](RTCS-08-track-detail.md)) und Lightbox ([RTCS-09](RTCS-09-photo-lightbox.md)) angezeigt.
+- Konfidenz wird konsistent in Karte ([RTCS-08](RTCS-08-photo-markers.md)), Detailansicht ([RTCS-09](RTCS-09-track-detail.md)) und Lightbox ([RTCS-10](RTCS-10-photo-lightbox.md)) angezeigt.
 
 ## Hinweis Phase 1
 
@@ -27,8 +27,8 @@ Steuerung der Foto-Anzeige nach Sicherheit der Track-/Positionszuordnung. Jedes 
 
 ## Abhängigkeiten
 
-- [RTCS-17](RTCS-17-photo-track-matching.md) (Ermittlung der Konfidenz)
-- [RTCS-07](RTCS-07-photo-markers.md), [RTCS-08](RTCS-08-track-detail.md), [RTCS-09](RTCS-09-photo-lightbox.md) (Anzeige)
+- [RTCS-18](RTCS-18-photo-track-matching.md) (Ermittlung der Konfidenz)
+- [RTCS-08](RTCS-08-photo-markers.md), [RTCS-09](RTCS-09-track-detail.md), [RTCS-10](RTCS-10-photo-lightbox.md) (Anzeige)
 
 ## Offene Punkte
 

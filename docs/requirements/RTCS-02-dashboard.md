@@ -21,7 +21,7 @@ Einstiegsseite mit Überblick und Statistiken über die gesammelten Aktivitäten
 
 ## Abhängigkeiten
 
-- Datengrundlage aus der Import-Pipeline ([RTCS-15](RTCS-15-gpx-import.md), [RTCS-16](RTCS-16-photo-import.md), [RTCS-17](RTCS-17-photo-track-matching.md) und [RTCS-18](RTCS-18-incremental-sync.md))
+- Datengrundlage aus der Import-Pipeline ([RTCS-16](RTCS-16-gpx-import.md), [RTCS-17](RTCS-17-photo-import.md), [RTCS-18](RTCS-18-photo-track-matching.md) und [RTCS-19](RTCS-19-incremental-sync.md))
 - Verlinkt in: [RTCS-01](RTCS-01-map-view.md), [RTCS-03](RTCS-03-track-filter.md)
 
 ## Offene Punkte

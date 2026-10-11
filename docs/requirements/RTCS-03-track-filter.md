@@ -18,13 +18,13 @@ Filterung der dargestellten Tracks nach den zentralen Dimensionen Zeit, Aktivit�
 - **Namenssuche:** Textsuche 체ber Track-Titel (aus Komoot 체bernommen).
 - Filter sind kombinierbar (UND-Verkn체pfung 체ber Dimensionen).
 - Aktive Filter sind sichtbar und einzeln zur체cksetzbar.
-- Filterergebnis aktualisiert Karte und ggf. Trefferzahl unmittelbar.
+- Filterergebnis aktualisiert Karte und Track-Liste (siehe [RTCS-06](RTCS-06-track-list-view.md)) sowie ggf. die Trefferzahl unmittelbar.
 
 ## Abh채ngigkeiten
 
 - [RTCS-01](RTCS-01-map-view.md) (Kartenausschnitt als Filterkontext)
 - [RTCS-04](RTCS-04-location-search.md) (Ortssuche)
-- Optional gespeichert 체ber [RTCS-14](RTCS-14-user-profiles.md) (Nutzerprofile)
+- Optional gespeichert 체ber [RTCS-15](RTCS-15-user-profiles.md) (Nutzerprofile)
 
 ## Offene Punkte
 
