@@ -1,4 +1,4 @@
-# RTRCS-02 – Dashboard & Statistiken
+# RTCS-02 – Dashboard & Statistiken
 
 **Kurzname:** dashboard
 **Phase:** MVP
@@ -21,8 +21,8 @@ Einstiegsseite mit Überblick und Statistiken über die gesammelten Aktivitäten
 
 ## Abhängigkeiten
 
-- Datengrundlage aus der Import-Pipeline (RTRCS-15 bis RTRCS-18)
-- Verlinkt in: RTRCS-01, RTRCS-03
+- Datengrundlage aus der Import-Pipeline (RTCS-15 bis RTCS-18)
+- Verlinkt in: RTCS-01, RTCS-03
 
 ## Offene Punkte
 

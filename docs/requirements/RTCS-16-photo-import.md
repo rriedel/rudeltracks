@@ -1,4 +1,4 @@
-# RTRCS-16 – Foto-/EXIF-Import
+# RTCS-16 – Foto-/EXIF-Import
 
 **Kurzname:** photo-import
 **Phase:** MVP
@@ -19,11 +19,11 @@ Einlesen der Fotosammlung (> 10.000 JPGs, on-premise) und Extraktion der relevan
 - Referenz auf die Originaldatei (Pfad) statt Kopie.
 - Robuste Behandlung von Fotos ohne/mit fehlerhaften EXIF-Daten (nicht verwerfen, sondern als „unbestimmt" führen).
 - Deduplizierung mehrfach vorhandener Fotos.
-- Stabile, eindeutige Foto-Identität für Wiederholungsläufe (siehe RTRCS-18).
+- Stabile, eindeutige Foto-Identität für Wiederholungsläufe (siehe RTCS-18).
 
 ## Abhängigkeiten
 
-- Liefert Daten an: RTRCS-07, RTRCS-17
+- Liefert Daten an: RTCS-07, RTCS-17
 - Thumbnail-Generierung wird in der Umsetzungsphase geklärt.
 
 ## Offene Punkte

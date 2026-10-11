@@ -1,4 +1,4 @@
-# RTRCS-11 – Zeitleisten-/Kalenderansicht
+# RTCS-11 – Zeitleisten-/Kalenderansicht
 
 **Kurzname:** timeline-view
 **Phase:** Phase 2
@@ -12,14 +12,14 @@ Chronologische Ansicht der Aktivitäten als eigenständiger Sucheinstieg – erg
 
 - Darstellung der Aktivitäten entlang einer Zeitachse (z. B. Jahr → Monat → Tag) oder als Kalender.
 - Auswahl eines Eintrags öffnet den Track (Karte/Detailansicht).
-- Zusammenspiel mit den Filtern aus RTRCS-03 (Aktivitätsart, Name).
+- Zusammenspiel mit den Filtern aus RTCS-03 (Aktivitätsart, Name).
 - Nutzbar als eigenständiger Einstieg neben der Kartenansicht.
 
 ## Abhängigkeiten
 
-- RTRCS-03 (Filter)
-- RTRCS-08 (Detailansicht)
-- Verwandt mit RTRCS-12 (Zeitfenster auf der Karte)
+- RTCS-03 (Filter)
+- RTCS-08 (Detailansicht)
+- Verwandt mit RTCS-12 (Zeitfenster auf der Karte)
 
 ## Offene Punkte
 

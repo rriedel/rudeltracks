@@ -1,4 +1,4 @@
-# RTRCS-06 – Smarte Darstellung / Track-Clustering
+# RTCS-06 – Smarte Darstellung / Track-Clustering
 
 **Kurzname:** smart-clustering
 **Phase:** MVP
@@ -13,12 +13,12 @@ Zoom-abhängige, „smarte" Darstellung: Decken Tracks nur einen kleinen Teil de
 - Unterhalb eines definierten Abdeckungs-/Zoom-Schwellwerts werden Tracks nicht als Linie, sondern als Marker/Badge dargestellt.
 - Mehrere nahe beieinanderliegende Tracks werden zu einem Cluster-Marker mit Anzahl zusammengefasst.
 - Klick/Tap auf einen Cluster zoomt hinein bzw. löst ihn auf.
-- Beim Hineinzoomen gehen Cluster fließend in die Wegzug-Darstellung (RTRCS-05) über.
+- Beim Hineinzoomen gehen Cluster fließend in die Wegzug-Darstellung (RTCS-05) über.
 
 ## Abhängigkeiten
 
-- RTRCS-01 (Karte)
-- RTRCS-05 (Wegzug-Darstellung)
+- RTCS-01 (Karte)
+- RTCS-05 (Wegzug-Darstellung)
 
 ## Offene Punkte
 

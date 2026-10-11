@@ -1,4 +1,4 @@
-# RTRCS-17 – Foto-Track-Matching mit Konfidenz
+# RTCS-17 – Foto-Track-Matching mit Konfidenz
 
 **Kurzname:** photo-track-matching
 **Phase:** MVP
@@ -18,15 +18,15 @@ Zuordnung von Fotos zu Tracks und Ermittlung einer Konfidenz-Stufe pro Foto. Bil
 
 - Für jedes Foto wird eine Konfidenz-Stufe bestimmt und gespeichert.
 - Fotos werden – soweit möglich – einem Track zugeordnet (über Zeitfenster und/oder räumliche Nähe).
-- Die ermittelte Position und Konfidenz werden persistiert (Grundlage für RTRCS-07 / RTRCS-10).
+- Die ermittelte Position und Konfidenz werden persistiert (Grundlage für RTCS-07 / RTCS-10).
 - Phase 1: positionierte Darstellung nur für „sicher"-Fotos; Konfidenz-Feld wird dennoch für alle Fotos gepflegt.
 - Nachvollziehbarkeit: Grundlage der Zuordnung ist erkennbar (Geo-Tag vs. Zeit-Match).
 
 ## Abhängigkeiten
 
-- RTRCS-15 (Track-Zeitfenster & Geometrie)
-- RTRCS-16 (Foto-Metadaten)
-- Liefert an: RTRCS-07, RTRCS-08, RTRCS-10
+- RTCS-15 (Track-Zeitfenster & Geometrie)
+- RTCS-16 (Foto-Metadaten)
+- Liefert an: RTCS-07, RTCS-08, RTCS-10
 
 ## Offene Punkte
 

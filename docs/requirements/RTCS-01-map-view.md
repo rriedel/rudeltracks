@@ -1,4 +1,4 @@
-# RTRCS-01 – Kartenansicht
+# RTCS-01 – Kartenansicht
 
 **Kurzname:** map-view
 **Phase:** MVP
@@ -15,11 +15,11 @@ Zentrale und primäre Oberfläche der Anwendung. Eine interaktive Karte auf Basi
 - Responsives Layout für Desktop und Mobile.
 - Sinnvoller Startausschnitt (z. B. Bounding-Box aller Tracks oder letzte Nutzerposition/-ansicht).
 - Bedienelemente für Zoom und aktuellen Standort.
-- Der aktuell sichtbare Kartenausschnitt ist als Kontext für Filter (siehe RTRCS-03) abrufbar.
+- Der aktuell sichtbare Kartenausschnitt ist als Kontext für Filter (siehe RTCS-03) abrufbar.
 
 ## Abhängigkeiten
 
-- Basis für: RTRCS-05, RTRCS-06, RTRCS-07, RTRCS-12, RTRCS-13
+- Basis für: RTCS-05, RTCS-06, RTCS-07, RTCS-12, RTCS-13
 
 ## Offene Punkte
 

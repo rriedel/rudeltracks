@@ -1,4 +1,4 @@
-# RTRCS-12 – Zeitfenster-Regler auf der Karte
+# RTCS-12 – Zeitfenster-Regler auf der Karte
 
 **Kurzname:** time-window-slider
 **Phase:** Phase 2 (hoher Wunsch)
@@ -19,9 +19,9 @@ Ein bewegliches Zeitfenster direkt in der Kartenansicht: Nur Tracks innerhalb de
 
 ## Abhängigkeiten
 
-- RTRCS-01 (Karte)
-- RTRCS-05 / RTRCS-06 (Track-Darstellung)
-- Verwandt mit RTRCS-11 (Timeline) und RTRCS-13 (Heatmap)
+- RTCS-01 (Karte)
+- RTCS-05 / RTCS-06 (Track-Darstellung)
+- Verwandt mit RTCS-11 (Timeline) und RTCS-13 (Heatmap)
 
 ## Offene Punkte
 

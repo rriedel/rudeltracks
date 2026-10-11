@@ -1,4 +1,4 @@
-# RTRCS-14 – Nutzerprofile & Personalisierung
+# RTCS-14 – Nutzerprofile & Personalisierung
 
 **Kurzname:** user-profiles
 **Phase:** Phase 2
@@ -12,14 +12,14 @@ Leichte Mehrbenutzerfähigkeit ohne echte Authentifizierung: Familienmitglieder 
 
 - Auswahl eines Profils (Familienmitglied) ohne Passwort.
 - Pro Profil speicherbar:
-  - Gespeicherte/benannte Suchfilter (aus RTRCS-03).
+  - Gespeicherte/benannte Suchfilter (aus RTCS-03).
   - Verlauf zuletzt betrachteter Tracks / Suchen.
 - Profilwechsel jederzeit möglich.
 - Kein Feature zur Zugriffsbeschränkung – reine Personalisierung.
 
 ## Abhängigkeiten
 
-- RTRCS-03 (Filter, die gespeichert werden)
+- RTCS-03 (Filter, die gespeichert werden)
 
 ## Offene Punkte
 

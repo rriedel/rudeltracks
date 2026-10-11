@@ -1,4 +1,4 @@
-# RTRCS-04 – Ortssuche / Geocoding
+# RTCS-04 – Ortssuche / Geocoding
 
 **Kurzname:** location-search
 **Phase:** MVP
@@ -24,8 +24,8 @@ Suche nach Orten (Adresse, Ortsname, POI), um die Karte an eine gewünschte Stel
 
 ## Abhängigkeiten
 
-- RTRCS-01 (Karte)
-- RTRCS-03 (Ort als Filterdimension)
+- RTCS-01 (Karte)
+- RTCS-03 (Ort als Filterdimension)
 
 ## Offene Punkte
 

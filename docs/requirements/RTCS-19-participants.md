@@ -1,4 +1,4 @@
-# RTRCS-19 – Personen-/Teilnehmer-Zuordnung
+# RTCS-19 – Personen-/Teilnehmer-Zuordnung
 
 **Kurzname:** participants
 **Phase:** Phase 2
@@ -12,13 +12,13 @@ Zuordnung von Teilnehmern zu Aktivitäten („wer war dabei"), um Tracks und Fot
 
 - Verwaltung einer Personenliste (Familienmitglieder).
 - Zuordnung einer oder mehrerer Personen zu einem Track.
-- Filterung/Auswertung nach Person (Zusammenspiel mit RTRCS-03 und RTRCS-02).
+- Filterung/Auswertung nach Person (Zusammenspiel mit RTCS-03 und RTCS-02).
 
 ## Abhängigkeiten
 
-- RTRCS-03 (Filter)
-- RTRCS-02 (Statistiken je Person)
-- Verwandt mit RTRCS-14 (Nutzerprofile)
+- RTCS-03 (Filter)
+- RTCS-02 (Statistiken je Person)
+- Verwandt mit RTCS-14 (Nutzerprofile)
 
 ## Offene Punkte
 

@@ -1,4 +1,4 @@
-# RTRCS-13 – Heatmap
+# RTCS-13 – Heatmap
 
 **Kurzname:** heatmap
 **Phase:** Phase 2
@@ -11,15 +11,15 @@ Aggregierte Darstellung, wo sich die Familie am häufigsten bewegt hat. Verdicht
 ## Anforderungen / Akzeptanzkriterien
 
 - Heatmap-Layer über der Karte, aus den Track-Geometrien berechnet.
-- Berücksichtigt die aktiven Filter (Zeit, Aktivitätsart, Ort) aus RTRCS-03.
+- Berücksichtigt die aktiven Filter (Zeit, Aktivitätsart, Ort) aus RTCS-03.
 - Umschaltbar zwischen Heatmap und normaler Track-Darstellung.
 - Sinnvolle Intensitäts-/Farbskala mit Legende.
 
 ## Abhängigkeiten
 
-- RTRCS-01 (Karte)
-- RTRCS-03 (Filter)
-- Optional kombinierbar mit RTRCS-12 (Zeitfenster)
+- RTCS-01 (Karte)
+- RTCS-03 (Filter)
+- Optional kombinierbar mit RTCS-12 (Zeitfenster)
 
 ## Offene Punkte
 

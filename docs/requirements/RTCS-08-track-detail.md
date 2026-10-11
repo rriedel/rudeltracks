@@ -1,4 +1,4 @@
-# RTRCS-08 – Track-Detailansicht
+# RTCS-08 – Track-Detailansicht
 
 **Kurzname:** track-detail
 **Phase:** MVP
@@ -13,16 +13,16 @@ Detailpanel zu einem ausgewählten Track mit Kennzahlen, Höhenprofil und einer 
 - Anzeige von: Titel, Datum, Aktivitätsart, Distanz, Dauer, Auf-/Abstieg, Durchschnittstempo.
 - Höhenprofil des Tracks.
 - Galerie aller zugeordneten Fotos.
-- Foto in der Galerie öffnet die Vollbildansicht (RTRCS-09).
+- Foto in der Galerie öffnet die Vollbildansicht (RTCS-09).
 - Interaktion Höhenprofil ↔ Karte wünschenswert (Position auf dem Track hervorheben).
-- Kennzeichnung der Foto-Zuordnungssicherheit (sicher/wahrscheinlich), konsistent mit RTRCS-10.
+- Kennzeichnung der Foto-Zuordnungssicherheit (sicher/wahrscheinlich), konsistent mit RTCS-10.
 
 ## Abhängigkeiten
 
-- RTRCS-05 (Auswahl eines Tracks)
-- RTRCS-09 (Lightbox)
-- RTRCS-10 (Konfidenz-Kennzeichnung)
-- Datengrundlage aus RTRCS-15 (GPX-Import)
+- RTCS-05 (Auswahl eines Tracks)
+- RTCS-09 (Lightbox)
+- RTCS-10 (Konfidenz-Kennzeichnung)
+- Datengrundlage aus RTCS-15 (GPX-Import)
 
 ## Offene Punkte
 

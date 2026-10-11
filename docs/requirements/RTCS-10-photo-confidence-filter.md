@@ -1,4 +1,4 @@
-# RTRCS-10 – Foto-Konfidenzfilter
+# RTCS-10 – Foto-Konfidenzfilter
 
 **Kurzname:** photo-confidence-filter
 **Phase:** MVP
@@ -16,10 +16,10 @@ Steuerung der Foto-Anzeige nach Sicherheit der Track-/Positionszuordnung. Jedes 
 
 ## Anforderungen / Akzeptanzkriterien
 
-- Jedes Foto hat eine gespeicherte Konfidenz-Stufe (aus RTRCS-17).
+- Jedes Foto hat eine gespeicherte Konfidenz-Stufe (aus RTCS-17).
 - UI-Toggle „nur sicher zugeordnete Fotos anzeigen".
 - Optisch unterscheidbare Marker je Stufe (z. B. durchgezogener vs. gestrichelter Rand).
-- Konfidenz wird konsistent in Karte (RTRCS-07), Detailansicht (RTRCS-08) und Lightbox (RTRCS-09) angezeigt.
+- Konfidenz wird konsistent in Karte (RTCS-07), Detailansicht (RTCS-08) und Lightbox (RTCS-09) angezeigt.
 
 ## Hinweis Phase 1
 
@@ -27,8 +27,8 @@ Steuerung der Foto-Anzeige nach Sicherheit der Track-/Positionszuordnung. Jedes 
 
 ## Abhängigkeiten
 
-- RTRCS-17 (Ermittlung der Konfidenz)
-- RTRCS-07, RTRCS-08, RTRCS-09 (Anzeige)
+- RTCS-17 (Ermittlung der Konfidenz)
+- RTCS-07, RTCS-08, RTCS-09 (Anzeige)
 
 ## Offene Punkte
 

@@ -1,4 +1,4 @@
-# RTRCS-18 – Inkrementelle Update-Läufe
+# RTCS-18 – Inkrementelle Update-Läufe
 
 **Kurzname:** incremental-sync
 **Phase:** MVP
@@ -14,12 +14,12 @@ Betriebsmodell der Import-Pipeline: ein längerer initialer Voll-Lauf, danach re
 - **Update-Läufe:** verarbeiten nur neue oder geänderte Dateien.
 - Idempotenz: erneuter Lauf über unveränderte Daten erzeugt keine Duplikate und keine ungewollten Änderungen.
 - Erkennung neuer/geänderter/entfernter Quelldateien.
-- Neu importierte Fotos/Tracks lösen bei Bedarf ein erneutes Matching aus (RTRCS-17).
+- Neu importierte Fotos/Tracks lösen bei Bedarf ein erneutes Matching aus (RTCS-17).
 - Protokollierung der Läufe (verarbeitet / übersprungen / Fehler).
 
 ## Abhängigkeiten
 
-- Steuert Ausführung von: RTRCS-15, RTRCS-16, RTRCS-17
+- Steuert Ausführung von: RTCS-15, RTCS-16, RTCS-17
 
 ## Offene Punkte
 

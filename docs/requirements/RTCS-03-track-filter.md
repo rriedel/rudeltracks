@@ -1,4 +1,4 @@
-# RTRCS-03 – Track-Filter
+# RTCS-03 – Track-Filter
 
 **Kurzname:** track-filter
 **Phase:** MVP
@@ -14,7 +14,7 @@ Filterung der dargestellten Tracks nach den zentralen Dimensionen Zeit, Aktivit�
 - **Aktivitätsart:** Auswahl einer oder mehrerer Arten (z. B. Wandern, Radfahren).
 - **Ort:**
   - „Aktueller Kartenausschnitt" – nur Tracks im sichtbaren Bereich.
-  - Ortssuche als Einstieg (siehe RTRCS-04).
+  - Ortssuche als Einstieg (siehe RTCS-04).
 - **Namenssuche:** Textsuche über Track-Titel (aus Komoot übernommen).
 - Filter sind kombinierbar (UND-Verknüpfung über Dimensionen).
 - Aktive Filter sind sichtbar und einzeln zurücksetzbar.
@@ -22,10 +22,10 @@ Filterung der dargestellten Tracks nach den zentralen Dimensionen Zeit, Aktivit�
 
 ## Abhängigkeiten
 
-- RTRCS-01 (Kartenausschnitt als Filterkontext)
-- RTRCS-04 (Ortssuche)
-- Optional gespeichert über RTRCS-14 (Nutzerprofile)
+- RTCS-01 (Kartenausschnitt als Filterkontext)
+- RTCS-04 (Ortssuche)
+- Optional gespeichert über RTCS-14 (Nutzerprofile)
 
 ## Offene Punkte
 
-- Umgang mit teilweise im Ausschnitt liegenden Tracks (siehe auch RTRCS-05): mit anzeigen, aber optisch abgeschwächt.
+- Umgang mit teilweise im Ausschnitt liegenden Tracks (siehe auch RTCS-05): mit anzeigen, aber optisch abgeschwächt.
