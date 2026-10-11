@@ -12,14 +12,14 @@ Chronologische Ansicht der Aktivitäten als eigenständiger Sucheinstieg – erg
 
 - Darstellung der Aktivitäten entlang einer Zeitachse (z. B. Jahr → Monat → Tag) oder als Kalender.
 - Auswahl eines Eintrags öffnet den Track (Karte/Detailansicht).
-- Zusammenspiel mit den Filtern aus RTCS-03 (Aktivitätsart, Name).
+- Zusammenspiel mit den Filtern aus [RTCS-03](RTCS-03-track-filter.md) (Aktivitätsart, Name).
 - Nutzbar als eigenständiger Einstieg neben der Kartenansicht.
 
 ## Abhängigkeiten
 
-- RTCS-03 (Filter)
-- RTCS-08 (Detailansicht)
-- Verwandt mit RTCS-12 (Zeitfenster auf der Karte)
+- [RTCS-03](RTCS-03-track-filter.md) (Filter)
+- [RTCS-08](RTCS-08-track-detail.md) (Detailansicht)
+- Verwandt mit [RTCS-12](RTCS-12-time-window-slider.md) (Zeitfenster auf der Karte)
 
 ## Offene Punkte
 

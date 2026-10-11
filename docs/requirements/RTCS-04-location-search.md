@@ -24,8 +24,8 @@ Suche nach Orten (Adresse, Ortsname, POI), um die Karte an eine gewünschte Stel
 
 ## Abhängigkeiten
 
-- RTCS-01 (Karte)
-- RTCS-03 (Ort als Filterdimension)
+- [RTCS-01](RTCS-01-map-view.md) (Karte)
+- [RTCS-03](RTCS-03-track-filter.md) (Ort als Filterdimension)
 
 ## Offene Punkte
 

@@ -11,15 +11,15 @@ Aggregierte Darstellung, wo sich die Familie am häufigsten bewegt hat. Verdicht
 ## Anforderungen / Akzeptanzkriterien
 
 - Heatmap-Layer über der Karte, aus den Track-Geometrien berechnet.
-- Berücksichtigt die aktiven Filter (Zeit, Aktivitätsart, Ort) aus RTCS-03.
+- Berücksichtigt die aktiven Filter (Zeit, Aktivitätsart, Ort) aus [RTCS-03](RTCS-03-track-filter.md).
 - Umschaltbar zwischen Heatmap und normaler Track-Darstellung.
 - Sinnvolle Intensitäts-/Farbskala mit Legende.
 
 ## Abhängigkeiten
 
-- RTCS-01 (Karte)
-- RTCS-03 (Filter)
-- Optional kombinierbar mit RTCS-12 (Zeitfenster)
+- [RTCS-01](RTCS-01-map-view.md) (Karte)
+- [RTCS-03](RTCS-03-track-filter.md) (Filter)
+- Optional kombinierbar mit [RTCS-12](RTCS-12-time-window-slider.md) (Zeitfenster)
 
 ## Offene Punkte
 

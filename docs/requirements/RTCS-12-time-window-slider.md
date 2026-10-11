@@ -19,9 +19,9 @@ Ein bewegliches Zeitfenster direkt in der Kartenansicht: Nur Tracks innerhalb de
 
 ## Abhängigkeiten
 
-- RTCS-01 (Karte)
-- RTCS-05 / RTCS-06 (Track-Darstellung)
-- Verwandt mit RTCS-11 (Timeline) und RTCS-13 (Heatmap)
+- [RTCS-01](RTCS-01-map-view.md) (Karte)
+- [RTCS-05](RTCS-05-track-rendering.md) / [RTCS-06](RTCS-06-smart-clustering.md) (Track-Darstellung)
+- Verwandt mit [RTCS-11](RTCS-11-timeline-view.md) (Timeline) und [RTCS-13](RTCS-13-heatmap.md) (Heatmap)
 
 ## Offene Punkte
 

@@ -18,15 +18,15 @@ Zuordnung von Fotos zu Tracks und Ermittlung einer Konfidenz-Stufe pro Foto. Bil
 
 - Für jedes Foto wird eine Konfidenz-Stufe bestimmt und gespeichert.
 - Fotos werden – soweit möglich – einem Track zugeordnet (über Zeitfenster und/oder räumliche Nähe).
-- Die ermittelte Position und Konfidenz werden persistiert (Grundlage für RTCS-07 / RTCS-10).
+- Die ermittelte Position und Konfidenz werden persistiert (Grundlage für [RTCS-07](RTCS-07-photo-markers.md) / [RTCS-10](RTCS-10-photo-confidence-filter.md)).
 - Phase 1: positionierte Darstellung nur für „sicher"-Fotos; Konfidenz-Feld wird dennoch für alle Fotos gepflegt.
 - Nachvollziehbarkeit: Grundlage der Zuordnung ist erkennbar (Geo-Tag vs. Zeit-Match).
 
 ## Abhängigkeiten
 
-- RTCS-15 (Track-Zeitfenster & Geometrie)
-- RTCS-16 (Foto-Metadaten)
-- Liefert an: RTCS-07, RTCS-08, RTCS-10
+- [RTCS-15](RTCS-15-gpx-import.md) (Track-Zeitfenster & Geometrie)
+- [RTCS-16](RTCS-16-photo-import.md) (Foto-Metadaten)
+- Liefert an: [RTCS-07](RTCS-07-photo-markers.md), [RTCS-08](RTCS-08-track-detail.md), [RTCS-10](RTCS-10-photo-confidence-filter.md)
 
 ## Offene Punkte
 

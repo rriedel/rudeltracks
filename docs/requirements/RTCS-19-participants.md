@@ -12,13 +12,13 @@ Zuordnung von Teilnehmern zu Aktivitäten („wer war dabei"), um Tracks und Fot
 
 - Verwaltung einer Personenliste (Familienmitglieder).
 - Zuordnung einer oder mehrerer Personen zu einem Track.
-- Filterung/Auswertung nach Person (Zusammenspiel mit RTCS-03 und RTCS-02).
+- Filterung/Auswertung nach Person (Zusammenspiel mit [RTCS-03](RTCS-03-track-filter.md) und [RTCS-02](RTCS-02-dashboard.md)).
 
 ## Abhängigkeiten
 
-- RTCS-03 (Filter)
-- RTCS-02 (Statistiken je Person)
-- Verwandt mit RTCS-14 (Nutzerprofile)
+- [RTCS-03](RTCS-03-track-filter.md) (Filter)
+- [RTCS-02](RTCS-02-dashboard.md) (Statistiken je Person)
+- Verwandt mit [RTCS-14](RTCS-14-user-profiles.md) (Nutzerprofile)
 
 ## Offene Punkte
 

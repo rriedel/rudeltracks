@@ -16,10 +16,10 @@ Steuerung der Foto-Anzeige nach Sicherheit der Track-/Positionszuordnung. Jedes 
 
 ## Anforderungen / Akzeptanzkriterien
 
-- Jedes Foto hat eine gespeicherte Konfidenz-Stufe (aus RTCS-17).
+- Jedes Foto hat eine gespeicherte Konfidenz-Stufe (aus [RTCS-17](RTCS-17-photo-track-matching.md)).
 - UI-Toggle „nur sicher zugeordnete Fotos anzeigen".
 - Optisch unterscheidbare Marker je Stufe (z. B. durchgezogener vs. gestrichelter Rand).
-- Konfidenz wird konsistent in Karte (RTCS-07), Detailansicht (RTCS-08) und Lightbox (RTCS-09) angezeigt.
+- Konfidenz wird konsistent in Karte ([RTCS-07](RTCS-07-photo-markers.md)), Detailansicht ([RTCS-08](RTCS-08-track-detail.md)) und Lightbox ([RTCS-09](RTCS-09-photo-lightbox.md)) angezeigt.
 
 ## Hinweis Phase 1
 
@@ -27,8 +27,8 @@ Steuerung der Foto-Anzeige nach Sicherheit der Track-/Positionszuordnung. Jedes 
 
 ## Abhängigkeiten
 
-- RTCS-17 (Ermittlung der Konfidenz)
-- RTCS-07, RTCS-08, RTCS-09 (Anzeige)
+- [RTCS-17](RTCS-17-photo-track-matching.md) (Ermittlung der Konfidenz)
+- [RTCS-07](RTCS-07-photo-markers.md), [RTCS-08](RTCS-08-track-detail.md), [RTCS-09](RTCS-09-photo-lightbox.md) (Anzeige)
 
 ## Offene Punkte
 
