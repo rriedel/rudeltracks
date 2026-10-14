@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f4f5ef" />
+    <title>Rudeltracks | Kartenprobe</title>
+  </head>
+  <body>
+    <div id="app">
+      <main class="prototype-shell">
+        <header class="topbar">
+          <div class="identity">
+            <span class="wordmark">Rudeltracks</span>
+            <span class="prototype-name">Kartenverbindungs-Prototyp</span>
+          </div>
+          <div id="connection-status" class="connection" data-state="loading" role="status" aria-live="polite">
+            <span class="connection-label">ATLAS + GPX</span>
+            <span id="connection-message" class="connection-message">Initialisiere Karte …</span>
+          </div>
+        </header>
+        <section class="map-frame" aria-label="Interaktive Thunderforest-Karte">
+          <div id="map"></div>
+        </section>
+      </main>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
