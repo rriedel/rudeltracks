@@ -37,7 +37,8 @@ if (!apiKey) {
     minZoom: 2,
     maxZoom: 18,
     attributionControl: { compact: false, customAttribution: attribution },
-    style: buildStyleVectorStylesAPI(),
+    style: buildStyleVectorStylesAPI(), // thunderforest vector styles API
+    //style: 'https://tiles.stadiamaps.com/styles/outdoors.json' // stadiamaps outdoors style
   })
 
   map.addControl(new NavigationControl({ visualizePitch: true }), 'top-right')
