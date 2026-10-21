@@ -1,9 +1,15 @@
-import { Map, NavigationControl, setWorkerUrl } from 'maplibre-gl'
+import { Map, NavigationControl, LngLatBounds, setWorkerUrl } from 'maplibre-gl'
 import maplibreWorker from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url'
 import 'maplibre-gl/dist/maplibre-gl.css'
 import './prototype.css'
-import trackGpx from '../2026-10-13_3345858628_Schrammstein-Aussicht und Gratweg nach Schmilka.gpx?raw'
 import { parseGpx } from './gpx.js'
+
+const gpxFiles = import.meta.glob('../tracks/*.gpx', {
+  query: '?raw',
+  import: 'default',
+  eager: true,
+})
+const trackColors = ['#d62828', '#2563eb', '#15803d', '#9333ea', '#c2410c']
 
 setWorkerUrl(maplibreWorker)
 
@@ -37,34 +43,51 @@ if (!apiKey) {
     minZoom: 2,
     maxZoom: 18,
     attributionControl: { compact: false, customAttribution: attribution },
-    style: buildStyleVectorStylesAPI(), // thunderforest vector styles API
-    //style: 'https://tiles.stadiamaps.com/styles/outdoors.json' // stadiamaps outdoors style
+    // style: buildStyleVectorStylesAPI(), // thunderforest vector styles API
+    style: 'https://tiles.stadiamaps.com/styles/outdoors.json' // stadiamaps outdoors style
   })
 
   map.addControl(new NavigationControl({ visualizePitch: true }), 'top-right')
 
   map.on('load', () => {
     try {
-      const { data, bounds } = parseGpx(trackGpx)
-      map.addSource('gpx-track', { type: 'geojson', data })
-      map.addLayer({
-        id: 'gpx-track-outline',
-        type: 'line',
-        source: 'gpx-track',
-        layout: { 'line-join': 'round', 'line-cap': 'round' },
-        paint: { 'line-color': '#ffffff', 'line-width': 7 },
+      const files = Object.entries(gpxFiles).sort(([left], [right]) => left.localeCompare(right))
+      if (files.length === 0) {
+        throw new Error('Im Track-Ordner wurden keine GPX-Dateien gefunden.')
+      }
+      const tracks = files.map(([path, gpx], index) => {
+        try {
+          return { ...parseGpx(gpx), color: trackColors[index % trackColors.length] }
+        } catch (error) {
+          const message = error instanceof Error ? error.message : 'Unbekannter Trackfehler.'
+          throw new Error(`${path}: ${message}`, { cause: error })
+        }
       })
-      map.addLayer({
-        id: 'gpx-track-line',
-        type: 'line',
-        source: 'gpx-track',
-        layout: { 'line-join': 'round', 'line-cap': 'round' },
-        paint: { 'line-color': '#d62828', 'line-width': 4 },
+      const bounds = new LngLatBounds()
+
+      tracks.forEach(({ data, bounds: trackBounds, color }, index) => {
+        const source = `gpx-track-${index + 1}`
+        bounds.extend(trackBounds)
+        map.addSource(source, { type: 'geojson', data })
+        map.addLayer({
+          id: `${source}-outline`,
+          type: 'line',
+          source,
+          layout: { 'line-join': 'round', 'line-cap': 'round' },
+          paint: { 'line-color': '#ffffff', 'line-width': 7 },
+        })
+        map.addLayer({
+          id: `${source}-line`,
+          type: 'line',
+          source,
+          layout: { 'line-join': 'round', 'line-cap': 'round' },
+          paint: { 'line-color': color, 'line-width': 4 },
+        })
       })
       map.fitBounds(bounds, { padding: 48, maxZoom: 15, duration: 0 })
-      setStatus('success', 'Atlas-Kartenstil und GPX-Track geladen.')
+      setStatus('success', `Kartenstil und ${tracks.length} GPX-Tracks geladen.`)
     } catch (error) {
-      console.error('GPX-Track konnte nicht angezeigt werden.', error)
+      console.error('GPX-Tracks konnten nicht angezeigt werden.', error)
       const message = error instanceof Error ? error.message : 'Unbekannter Trackfehler.'
       setStatus('error', `Trackfehler: ${message}`)
     }
