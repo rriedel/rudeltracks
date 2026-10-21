@@ -30,7 +30,7 @@ Tile-Format und Kartenbibliothek sind getrennte Entscheidungen. Leaflet ist ein 
 
 ### Stand des Prototyps (14.10.2026)
 
-Der [Kartenprototyp](../../prototype/README.md) verwendet MapLibre GL JS mit der [Thunderforest Vector Styles API](https://www.thunderforest.com/docs/vector-styles-api/), derzeit mit dem Stil `atlas`. Das Laden der Tiles und die Interaktion mit der Karte funktionieren nach dem bisherigen Praxistest gut und flüssig.
+Der [Kartenprototyp](../../prototype/maps/README.md) verwendet MapLibre GL JS mit der [Thunderforest Vector Styles API](https://www.thunderforest.com/docs/vector-styles-api/), derzeit mit dem Stil `atlas`. Das Laden der Tiles und die Interaktion mit der Karte funktionieren nach dem bisherigen Praxistest gut und flüssig.
 
 Die aktuelle Einschränkung ist die Stilauswahl: Der gewünschte Kartentyp `landscape` wird von dieser API derzeit noch nicht unterstützt. Die Verfügbarkeit als Rasterkarte bedeutet nicht, dass derselbe Stil auch über die Vector Styles API verfügbar ist. Laut bisherigem Kenntnisstand sind weitere Kartentypen von Thunderforest angekündigt; daraus ergibt sich noch keine Zusage oder ein Termin für `landscape`.
 
