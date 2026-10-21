@@ -9,7 +9,7 @@ const gpxFiles = import.meta.glob('../tracks/*.gpx', {
   import: 'default',
   eager: true,
 })
-const trackColors = ['#d62828', '#2563eb', '#15803d', '#9333ea', '#c2410c']
+const trackColors = ['#d62828', '#2563eb', '#15803d', '#9333ea', '#f59e0b', '#8b5cf6', '#00bcd4', '#ff69b4']
 
 setWorkerUrl(maplibreWorker)
 
