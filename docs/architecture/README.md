@@ -22,8 +22,8 @@ Dieses Verzeichnis beschreibt die Architektur von Rudeltracks nach dem
 
 - Die Kapitel beschreiben den aktuellen Stand. Geplante oder noch offene
   Aspekte entsprechend kennzeichnen.
-- Entscheidungen mit größerem Umfang können später als einzelne ADRs
-  dokumentiert und in Kapitel 9 verlinkt werden.
+- Entscheidungen mit größerem Umfang werden als einzelne ADRs dokumentiert und
+  in Kapitel 9 verlinkt.
 - Diagramme zunächst direkt im jeweiligen Kapitel ablegen; ein gemeinsames
   Verzeichnis lohnt sich, wenn mehrere Kapitel dieselben Quelldateien nutzen.
 

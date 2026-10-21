@@ -24,4 +24,4 @@ Vollbild-Ansicht einzelner Fotos mit Navigation zwischen den Fotos eines Kontext
 
 ## Offene Punkte
 
-- Auslieferung in mehreren Auflösungen (Thumbnail vs. Vollbild) – Detail in Umsetzungsphase.
+- Konkrete Bildvarianten und Auflösungen (Thumbnail vs. Lightbox-Vorschau) in der Umsetzungsphase festlegen. Die vorläufige Richtung für die Auslieferung über das Backend ist in der [Lösungsstrategie](../architecture/04-loesungsstrategie.md) beschrieben.

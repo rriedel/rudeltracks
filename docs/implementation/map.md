@@ -34,6 +34,18 @@ Der [Kartenprototyp](../../prototype/README.md) verwendet MapLibre GL JS mit der
 
 Die aktuelle Einschränkung ist die Stilauswahl: Der gewünschte Kartentyp `landscape` wird von dieser API derzeit noch nicht unterstützt. Die Verfügbarkeit als Rasterkarte bedeutet nicht, dass derselbe Stil auch über die Vector Styles API verfügbar ist. Laut bisherigem Kenntnisstand sind weitere Kartentypen von Thunderforest angekündigt; daraus ergibt sich noch keine Zusage oder ein Termin für `landscape`.
 
+### Ergänzende Prototyp-Erkenntnisse (18.10.2026)
+
+Im Prototyp wurden Thunderforest und Stadia Maps als Tile-Server as a Service
+erprobt. Die Vektor-Tile-Auslieferung ist schnell genug für eine flüssige
+Bedienung. Bei der erwarteten Nutzung werden die Frei-Kontingente
+voraussichtlich nicht ausgeschöpft; dies ist keine garantierte Kostenfreiheit.
+Externe Vektor-Tile-Dienste sind damit die
+[vorläufige Architektur-Richtung](../architecture/04-loesungsstrategie.md) und
+in [ADR-002](../architecture/adr/adr-002-kartenkacheln.md) dokumentiert.
+Eine endgültige Anbieterwahl oder eine Aussage zur Eignung eines
+Geocoding-Dienstes folgt daraus nicht.
+
 ### Optionen für den gewünschten Kartenstil
 
 | Option | Vorteile | Nachteile / Risiken | Aktuelle Einordnung |
@@ -41,7 +53,7 @@ Die aktuelle Einschränkung ist die Stilauswahl: Der gewünschte Kartentyp `land
 | 1. Auf zusätzliche Thunderforest-Vektorstile warten | Bestehende, flüssig bedienbare MapLibre-Anbindung bleibt erhalten; kein eigener Styling-Aufwand. | `landscape` bleibt vorerst nicht verfügbar; Unterstützung und Zeitpunkt sind offen. | **Aktuelle Präferenz.** Vorerst mit `atlas` weiterarbeiten und die angebotenen Stile beobachten. |
 | 2. Eigenen Stil für MapLibre erstellen | Darstellung könnte gezielt an die gewünschte Landscape-Karte angenähert werden. | Sehr hoher Aufwand für Gestaltung, Abstimmung mit dem Tile-Schema und Pflege. | Aktuell keine Option. |
 | 3. Auf Raster-Tiles ausweichen | Gewünschten fertigen Landscape-Stil als Rasterkarte nutzen. | Weniger flüssige Bedienung wird als Nachteil erwartet; das konkrete Verhalten auf Zielgeräten wäre zu prüfen. | Nur als Notlösung, falls der gewünschte Stil nicht länger warten kann. MapLibre kann auch Raster-Tiles anzeigen; ein Bibliothekswechsel ist dafür nicht erforderlich. |
-| 4. Anderen Anbieter ausprobieren, insbesondere Stadia Maps | Möglicherweise passender fertiger Vektorstil ohne Eigenentwicklung. | Eignung der Stile, Integration, Kosten, Attribution und Nutzungsbedingungen müssen erst geprüft werden. | Alternative bei erneutem Entscheidungsbedarf; noch nicht evaluiert. |
+| 4. Anderen Anbieter für den gewünschten Kartenstil wählen, insbesondere Stadia Maps | Möglicherweise passender fertiger Vektorstil ohne Eigenentwicklung. | Eignung des gewünschten Stils, Attribution und Nutzungsbedingungen bleiben zu prüfen; Frei-Kontingente reichen voraussichtlich aus. | Tile-Auslieferung mit Stadia Maps bereits erprobt; Eignung als Ersatz für den gewünschten Landscape-Stil bleibt offen. |
 
 **Vorläufige Entscheidung:** Option 1 verfolgen. Kein eigener Stil, kein Raster-Fallback und kein Anbieterwechsel werden derzeit umgesetzt. Die Entscheidung erneut prüfen, wenn Thunderforest passende neue Stile bereitstellt oder der gewünschte Landscape-Stil für die weitere Umsetzung zwingend benötigt wird.
 
