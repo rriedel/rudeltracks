@@ -12,7 +12,10 @@
     "vscode": {
       "settings": {
         "terminal.integrated.defaultProfile.linux": "bash"
-      }
+      },
+      "extensions": [
+        "Anthropic.claude-code"
+      ]
     }
   }
 }
