@@ -6,7 +6,7 @@
 
 ## Beschreibung
 
-Ein bewegliches Zeitfenster direkt in der Kartenansicht: Nur Tracks innerhalb des Fensters werden angezeigt. Das Fenster ist in Breite und Position frei steuerbar und ermöglicht eine „Reise durch die Familienhistorie".
+Ein bewegliches Zeitfenster direkt in der Kartenansicht: Nur Aktivitäten innerhalb des Fensters werden angezeigt. Das Fenster ist in Breite und Position frei steuerbar und ermöglicht eine „Reise durch die Familienhistorie".
 
 ## Anforderungen / Akzeptanzkriterien
 
@@ -14,14 +14,14 @@ Ein bewegliches Zeitfenster direkt in der Kartenansicht: Nur Tracks innerhalb de
 - Vom Nutzer änderbare Fensterbreite (z. B. Tag / Woche / Monat / Jahr).
 - Verschieben des Fensters per Drag.
 - Positionierung per direkter Eingabe (z. B. Monat/Jahr).
-- Karte und eine ggf. sichtbare Track-Liste ([RTCS-06](RTCS-06-track-list-view.md)) aktualisieren die angezeigten Tracks live beim Verschieben.
+- Karte und eine ggf. sichtbare Aktivitätsliste ([RTCS-06](RTCS-06-activity-list-view.md)) aktualisieren die angezeigten Aktivitäten live beim Verschieben.
 - Optional: Play/Animation – das Fenster läuft automatisch über die Zeitachse, Tracks erscheinen/verschwinden.
 
 ## Abhängigkeiten
 
 - [RTCS-01](RTCS-01-map-view.md) (Karte)
 - [RTCS-05](RTCS-05-track-rendering.md) / [RTCS-07](RTCS-07-smart-clustering.md) (Track-Darstellung)
-- Wechselwirkung mit [RTCS-06](RTCS-06-track-list-view.md) (synchronisierte Treffer in der Liste)
+- Wechselwirkung mit [RTCS-06](RTCS-06-activity-list-view.md) (synchronisierte Treffer in der Liste)
 - Verwandt mit [RTCS-12](RTCS-12-timeline-view.md) (Timeline) und [RTCS-14](RTCS-14-heatmap.md) (Heatmap)
 
 ## Offene Punkte

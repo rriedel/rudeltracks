@@ -15,3 +15,4 @@ verlinkt werden.
 | Zugriff zunächst ohne Anwendungsanmeldung im lokalen Netz, kein Fernzugriff | Vorläufig angenommen | [ADR-005: Zugriff](adr/adr-005-zugriff.md) |
 | Frontend als React-/TypeScript-SPA mit Vite, TanStack Router/Query, Orval und MapLibre GL JS | Angenommen | [ADR-006: Frontend-Techstack](adr/adr-006-frontend-techstack.md) |
 | Backend mit Java und Quarkus | Vorläufig angenommen | [ADR-007: Backend-Techstack](adr/adr-007-backend-techstack.md) |
+| API-Vertrag code-first: OpenAPI aus dem Backend, Orval-Client im Frontend | Angenommen | [ADR-008: API-Vertrag code-first](adr/adr-008-api-vertrag.md) |

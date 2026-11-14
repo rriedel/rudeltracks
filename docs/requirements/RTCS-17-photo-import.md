@@ -6,7 +6,7 @@
 
 ## Beschreibung
 
-Einlesen der Fotosammlung (> 10.000 JPGs, on-premise) und Extraktion der relevanten EXIF-Metadaten als Grundlage für die Darstellung und das Foto-Track-Matching. Fotos verbleiben am Speicherort; die Anwendung hält Referenzen und Metadaten.
+Einlesen der Fotosammlung (> 10.000 JPGs, on-premise) und Extraktion der relevanten EXIF-Metadaten als Grundlage für die Darstellung und das Foto-Aktivitäts-Matching. Fotos verbleiben am Speicherort; die Anwendung hält Referenzen und Metadaten.
 
 ## Anforderungen / Akzeptanzkriterien
 
@@ -23,7 +23,7 @@ Einlesen der Fotosammlung (> 10.000 JPGs, on-premise) und Extraktion der relevan
 
 ## Abhängigkeiten
 
-- Liefert Daten an: [RTCS-08](RTCS-08-photo-markers.md), [RTCS-18](RTCS-18-photo-track-matching.md)
+- Liefert Daten an: [RTCS-08](RTCS-08-photo-markers.md), [RTCS-18](RTCS-18-photo-activity-matching.md)
 - Thumbnail-Generierung wird in der Umsetzungsphase geklärt.
 
 ## Offene Punkte

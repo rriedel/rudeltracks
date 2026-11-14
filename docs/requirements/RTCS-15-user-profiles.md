@@ -12,14 +12,14 @@ Leichte Mehrbenutzerfähigkeit ohne echte Authentifizierung: Familienmitglieder 
 
 - Auswahl eines Profils (Familienmitglied) ohne Passwort.
 - Pro Profil speicherbar:
-  - Gespeicherte/benannte Suchfilter (aus [RTCS-03](RTCS-03-track-filter.md)).
-  - Verlauf zuletzt betrachteter Tracks / Suchen.
+  - Gespeicherte/benannte Suchfilter (aus [RTCS-03](RTCS-03-activity-filter.md)).
+  - Verlauf zuletzt betrachteter Aktivitäten / Suchen.
 - Profilwechsel jederzeit möglich.
 - Kein Feature zur Zugriffsbeschränkung – reine Personalisierung.
 
 ## Abhängigkeiten
 
-- [RTCS-03](RTCS-03-track-filter.md) (Filter, die gespeichert werden)
+- [RTCS-03](RTCS-03-activity-filter.md) (Filter, die gespeichert werden)
 
 ## Offene Punkte
 

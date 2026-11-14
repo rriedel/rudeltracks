@@ -1,24 +1,24 @@
-# RTCS-03 – Track-Filter
+# RTCS-03 – Aktivitäts-Filter
 
-**Kurzname:** track-filter
+**Kurzname:** activity-filter
 **Phase:** MVP
 **Status:** Entwurf
 
 ## Beschreibung
 
-Filterung der dargestellten Tracks nach den zentralen Dimensionen Zeit, Aktivitätsart und Ort, ergänzt um eine Namenssuche. Wirkt auf Kartenansicht und andere Sichten.
+Filterung der dargestellten Aktivitäten nach den zentralen Dimensionen Zeit, Aktivitätsart und Ort, ergänzt um eine Namenssuche. Wirkt auf Kartenansicht und andere Sichten.
 
 ## Anforderungen / Akzeptanzkriterien
 
 - **Zeitraum:** Filter nach Datumsbereich (von/bis).
 - **Aktivitätsart:** Auswahl einer oder mehrerer Arten (z. B. Wandern, Radfahren).
 - **Ort:**
-  - „Aktueller Kartenausschnitt" – nur Tracks im sichtbaren Bereich.
+  - „Aktueller Kartenausschnitt" – nur Aktivitäten, deren Track im sichtbaren Bereich liegt.
   - Ortssuche als Einstieg (siehe [RTCS-04](RTCS-04-location-search.md)).
-- **Namenssuche:** Textsuche über Track-Titel (aus Komoot übernommen).
+- **Namenssuche:** Textsuche über den Namen der Aktivität (aus Komoot übernommen).
 - Filter sind kombinierbar (UND-Verknüpfung über Dimensionen).
 - Aktive Filter sind sichtbar und einzeln zurücksetzbar.
-- Filterergebnis aktualisiert Karte und Track-Liste (siehe [RTCS-06](RTCS-06-track-list-view.md)) sowie ggf. die Trefferzahl unmittelbar.
+- Filterergebnis aktualisiert Karte und Aktivitätsliste (siehe [RTCS-06](RTCS-06-activity-list-view.md)) sowie ggf. die Trefferzahl unmittelbar.
 
 ## Abhängigkeiten
 

@@ -66,8 +66,8 @@ Die Zuständigkeiten für Zustand werden wie folgt getrennt:
 ## Konsequenzen
 
 - Die API benötigt einen verlässlichen OpenAPI-Vertrag und einen reproduzierbaren
-  Orval-Generierungsprozess. Ob die Spezifikation zuerst definiert oder vom
-  Backend erzeugt wird, bleibt eine gesonderte Workflow-Entscheidung.
+  Orval-Generierungsprozess. Die Spezifikation wird code-first vom Backend
+  erzeugt ([ADR-008](adr-008-api-vertrag.md)).
 - Generierte TypeScript-Typen ersetzen keine Laufzeitvalidierung von API-Daten.
 - Query-Keys müssen die für eine Anfrage relevanten Filter berücksichtigen.
   Kartenbewegungen sollen nicht bei jedem Animationsschritt neue API-Anfragen

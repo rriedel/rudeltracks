@@ -1,12 +1,12 @@
-# RTCS-09 – Track-Detailansicht
+# RTCS-09 – Aktivitäts-Detailansicht
 
-**Kurzname:** track-detail
+**Kurzname:** activity-detail
 **Phase:** MVP
 **Status:** Entwurf
 
 ## Beschreibung
 
-Detailpanel zu einem ausgewählten Track mit Kennzahlen, Höhenprofil und einer Galerie der zugehörigen Fotos. Zentrale Ansicht zum „Nacherleben" einer einzelnen Aktivität.
+Detailpanel zu einer ausgewählten Aktivität mit Kennzahlen, Höhenprofil und einer Galerie der zugehörigen Fotos. Zentrale Ansicht zum „Nacherleben" einer einzelnen Aktivität.
 
 ## Anforderungen / Akzeptanzkriterien
 
@@ -19,11 +19,11 @@ Detailpanel zu einem ausgewählten Track mit Kennzahlen, Höhenprofil und einer 
 
 ## Abhängigkeiten
 
-- [RTCS-05](RTCS-05-track-rendering.md) (Auswahl eines Tracks)
+- [RTCS-05](RTCS-05-track-rendering.md) (Auswahl einer Aktivität)
 - [RTCS-10](RTCS-10-photo-lightbox.md) (Lightbox)
 - [RTCS-11](RTCS-11-photo-confidence-filter.md) (Konfidenz-Kennzeichnung)
 - Datengrundlage aus [RTCS-16](RTCS-16-gpx-import.md) (GPX-Import)
-- Aufruf durch Track-Auswahl in [RTCS-06](RTCS-06-track-list-view.md) (Track-Liste)
+- Aufruf durch Auswahl in [RTCS-06](RTCS-06-activity-list-view.md) (Aktivitätsliste)
 
 ## Offene Punkte
 

@@ -6,7 +6,7 @@
 
 ## Beschreibung
 
-Suche nach Orten (Adresse, Ortsname, POI), um die Karte an eine gewünschte Stelle zu bewegen bzw. Tracks in einer Region zu finden. Geocoding über einen frei zugänglichen, self-host-fähigen Dienst.
+Suche nach Orten (Adresse, Ortsname, POI), um die Karte an eine gewünschte Stelle zu bewegen bzw. Aktivitäten in einer Region zu finden. Geocoding über einen frei zugänglichen, self-host-fähigen Dienst.
 
 ## Anforderungen / Akzeptanzkriterien
 
@@ -25,7 +25,7 @@ Suche nach Orten (Adresse, Ortsname, POI), um die Karte an eine gewünschte Stel
 ## Abhängigkeiten
 
 - [RTCS-01](RTCS-01-map-view.md) (Karte)
-- [RTCS-03](RTCS-03-track-filter.md) (Ort als Filterdimension)
+- [RTCS-03](RTCS-03-activity-filter.md) (Ort als Filterdimension)
 
 ## Offene Punkte
 

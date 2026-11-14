@@ -11,7 +11,7 @@ Einstiegsseite mit Überblick und Statistiken über die gesammelten Aktivitäten
 ## Anforderungen / Akzeptanzkriterien
 
 - Überblickskennzahlen, u. a.:
-  - Anzahl Tracks gesamt und je Aktivitätsart
+  - Anzahl Aktivitäten gesamt und je Aktivitätsart
   - Gesamtdistanz und Gesamtdauer
   - Anzahl Fotos (gesamt / sicher zugeordnet / wahrscheinlich zugeordnet)
   - Zeitspanne der Daten (erste bis letzte Aktivität)
@@ -21,8 +21,8 @@ Einstiegsseite mit Überblick und Statistiken über die gesammelten Aktivitäten
 
 ## Abhängigkeiten
 
-- Datengrundlage aus der Import-Pipeline ([RTCS-16](RTCS-16-gpx-import.md), [RTCS-17](RTCS-17-photo-import.md), [RTCS-18](RTCS-18-photo-track-matching.md) und [RTCS-19](RTCS-19-incremental-sync.md))
-- Verlinkt in: [RTCS-01](RTCS-01-map-view.md), [RTCS-03](RTCS-03-track-filter.md)
+- Datengrundlage aus der Import-Pipeline ([RTCS-16](RTCS-16-gpx-import.md), [RTCS-17](RTCS-17-photo-import.md), [RTCS-18](RTCS-18-photo-activity-matching.md) und [RTCS-19](RTCS-19-incremental-sync.md))
+- Verlinkt in: [RTCS-01](RTCS-01-map-view.md), [RTCS-03](RTCS-03-activity-filter.md)
 
 ## Offene Punkte
 

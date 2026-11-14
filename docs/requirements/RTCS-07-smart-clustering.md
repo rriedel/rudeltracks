@@ -1,4 +1,4 @@
-# RTCS-07 – Smarte Darstellung / Track-Clustering
+# RTCS-07 – Smarte Darstellung / Aktivitäts-Clustering
 
 **Kurzname:** smart-clustering
 **Phase:** MVP
@@ -6,12 +6,12 @@
 
 ## Beschreibung
 
-Zoom-abhängige, „smarte" Darstellung: Decken Tracks nur einen kleinen Teil des Kartenausschnitts ab, wird statt des Wegzugs ein Marker/Badge angezeigt – ggf. mit Anzahl der Tracks in einem Bereich. Vermeidet eine überladene Karte bei herausgezoomter Ansicht.
+Zoom-abhängige, „smarte" Darstellung: Decken Tracks nur einen kleinen Teil des Kartenausschnitts ab, wird statt des Wegzugs ein Marker/Badge angezeigt – ggf. mit Anzahl der Aktivitäten in einem Bereich. Vermeidet eine überladene Karte bei herausgezoomter Ansicht.
 
 ## Anforderungen / Akzeptanzkriterien
 
 - Unterhalb eines definierten Abdeckungs-/Zoom-Schwellwerts werden Tracks nicht als Linie, sondern als Marker/Badge dargestellt.
-- Mehrere nahe beieinanderliegende Tracks werden zu einem Cluster-Marker mit Anzahl zusammengefasst.
+- Mehrere nahe beieinanderliegende Aktivitäten werden zu einem Cluster-Marker mit Anzahl zusammengefasst.
 - Klick/Tap auf einen Cluster zoomt hinein bzw. löst ihn auf.
 - Beim Hineinzoomen gehen Cluster fließend in die Wegzug-Darstellung ([RTCS-05](RTCS-05-track-rendering.md)) über.
 

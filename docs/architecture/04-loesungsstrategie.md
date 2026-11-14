@@ -9,6 +9,7 @@
 - Zugriff: zunächst ohne Anwendungsanmeldung im lokalen Netz, kein Fernzugriff; Details siehe [ADR-005](adr/adr-005-zugriff.md)
 - Techstack Frontend (Browser): React, TypeScript und Vite mit TanStack Router, TanStack Query, Orval und MapLibre GL JS als clientseitige SPA; Details siehe [ADR-006](adr/adr-006-frontend-techstack.md)
 - Techstack Backend: Java mit Quarkus als vorläufige Entscheidung; Details siehe [ADR-007](adr/adr-007-backend-techstack.md)
+- API-Vertrag: code-first, OpenAPI-Spezifikation aus dem Backend als Grundlage für den Orval-Client im Frontend; Details siehe [ADR-008](adr/adr-008-api-vertrag.md)
 - ELT-Pipeline für Import von Track-Daten und Foto-Metadaten
 
 ## Offene Punkte
@@ -24,7 +25,9 @@
 
 ## Top-Level-Zerlegung
 
--
+- Browser-SPA, ein Anwendungsdienst (Frontend-Auslieferung, API, Import) und
+  PostgreSQL/PostGIS; Details siehe [Bausteinsicht](05-bausteinsicht.md)
+- Schnittstelle zwischen Frontend und Backend: [API-Skizze](../implementation/api.md)
 
 ## Erfüllung der Qualitätsziele
 
